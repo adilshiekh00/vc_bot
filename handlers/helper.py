@@ -9,7 +9,7 @@ from helpers.filters import command, other_filters2, other_filters
 @Client.on_message(command("help") & other_filters2)
 async def helper(ok, message: Message):
     await message.reply_text(
-        f"""💞 Hello! Following are the commands available for **{bn}** - __A Group Voice Chat Music Player__.
+        f"""💞 Hello Following are the commands available for **{bn}** - __A Group Voice Chat Music Player__.
 The commands I currently support are:
 
 🔥 **Users Commands :**
